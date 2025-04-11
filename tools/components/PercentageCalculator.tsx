@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
     width: 150,
   },
   button: {
-    backgroundColor: "#11b6f2",
+    backgroundColor: "skyblue",
     padding: 5,
     borderRadius: 3,
     ...Platform.select({
