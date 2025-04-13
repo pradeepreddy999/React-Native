@@ -3,11 +3,11 @@ import { useNavigation } from "expo-router";
 import { useEffect } from "react";
 
 const Percentage = () => {
-  const navigate = useNavigation();
+  // const navigate = useNavigation();
 
-  useEffect(() => {
-    navigate.setOptions({ headerTitle: "Percentage Calculator" });
-  }, []);
+  // useEffect(() => {
+  //   navigate.setOptions({ headerTitle: "Percentage Calculator" });
+  // }, []);
 
   return <PercentageCalculator />;
 };
